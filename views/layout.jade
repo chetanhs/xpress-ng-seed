@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(ng-app="app")
+    block content
+    //Vendor files
+    script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js")
+    script(src="//code.angularjs.org/1.2.15/angular-resource.min.js")
+    script(src="//code.angularjs.org/1.2.15/angular-route.min.js")
+    script(src="//code.angularjs.org/1.2.15/angular-sanitize.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js")
+    //Route and Angularjs Module definition files
+    script(src="/javascripts/angular/app.js")
+    //Angularjs controllers
+    script(src="/javascripts/angular/controllers/home.js")
+    //Angularjs services
+    script(src="/javascripts/angular/services/home.js")
+    //Angularjs filters
+    script(src="/javascripts/angular/filters/filters.js")
+    //Angularjs directives
+    script(src="/javascripts/angular/directives/directives.js")
