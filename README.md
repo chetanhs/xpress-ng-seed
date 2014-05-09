@@ -4,12 +4,12 @@ xpress-ng-seed
 An Express and Angularjs seed project.
 
 See it in Action
-================
+----------------
 
 http://xpress-ng-seed.herokuapp.com/
 
 Running the App
-===============
+---------------
 
 To run the app,
 
