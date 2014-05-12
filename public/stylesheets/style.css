@@ -1,8 +1,27 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 50px;
 }
-
-a {
-  color: #00B7FF;
+.starter-template {
+  padding: 40px 15px 0;
+  text-align: center;
 }
+.no-border { border: none;}
+.search-box-holder:after {content: "Search for one of these: web, javascript, lead, developer";}
+.search-results:after {content: "Latest job openings";}
+.search-results.custom:after {content: "Search Results";}
+.company-initial {
+  background: gray;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+.company-initial:hover {
+  text-decoration: none;
+}
+.company-initial p {
+  min-width: 50px; max-width: 50px;
+}
+.bold {font-weight: bold;}
+.hit {font-size: 16px; color: gray; font-weight: bold;}
