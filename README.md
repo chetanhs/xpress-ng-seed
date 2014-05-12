@@ -20,7 +20,7 @@ To run the app,
 
 This should get the node server running on port 3000.
 
-This was developed using express-generator. More information on that can e found at, http://expressjs.com/guide.html
+This was developed using express-generator. More information on that can be found at, http://expressjs.com/guide.html
 
 Update
 ------
